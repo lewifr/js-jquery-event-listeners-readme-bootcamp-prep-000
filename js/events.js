@@ -10,8 +10,8 @@ function frameIt() {
   })
 }
 
-$(document).ready(function() {
+$(document).ready(function(e) {
 
-
+e.target.className = 'tasty'
 
 });
