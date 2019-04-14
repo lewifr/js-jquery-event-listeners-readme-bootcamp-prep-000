@@ -1,7 +1,10 @@
-//define functions here
 
-$(document).ready(function(){
+function getIt() {
+  $('p').on('click', function() { alert('Hey!') })
+}
 
-// call functions here
-
-});
+function frameIt() {
+  $('img').on('load', function(e) {
+    e.target[class] = 'tasty'
+  })
+}
